@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        .bfc-container {
+  overflow: hidden; /* 创建BFC */
+  background-color: lightblue; /* 便于观察 */
+}
+
+.bfc-box {
+  width: 100px;
+  height: 100px;
+  margin: 20px; /* 在同一个BFC内，垂直margin不会重叠 */
+  background-color: lightcoral;
+}
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="bfc-container">
+  <div class="bfc-box">Box 1</div>
+  <div class="bfc-box">Box 2</div>
+   <div class="bfc-box">Box 2</div>
+    <div class="bfc-box">Box 2</div>
+</div>
+
+</body>
+</html>
