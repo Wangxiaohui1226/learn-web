@@ -1,0 +1,6 @@
+.outer {
+    height: 100px;
+    padding-left:100px;
+    padding-right: 200px;
+    background-color: red;
+}
