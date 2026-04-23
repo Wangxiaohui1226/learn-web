@@ -286,4 +286,5 @@ var subarraySum = function(nums, k) {
         }
     }
     return count;
+    
 };
